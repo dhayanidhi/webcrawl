@@ -4,6 +4,6 @@ author=${AUTHOR}
 
 echo "Search for author ${author}"
 
-scrapy crawl nlm --nolog
+scrapy crawl pub_nlm --nolog
 
 echo "Search complete"
